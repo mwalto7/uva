@@ -9,7 +9,7 @@ def max_cycle_len(start, stop):
         while n != 1:
             cycles += 1
             if n % 2 == 0:
-                n = int(n / 2)
+                n = n / 2
             else:
                 n = 3*n + 1
         if cycles > max_cycle:
