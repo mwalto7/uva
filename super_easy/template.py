@@ -1,13 +1,13 @@
 import sys
 
 
-def method(input):
-    return ''
+def method(values):
+    pass
 
 
 if __name__ == '__main__':
 
+    lines = []
     for line in sys.stdin:
-        result = method(line)
-        if result is not None:
-            print(result)
+        lines.append(line)
+    print(lines)
